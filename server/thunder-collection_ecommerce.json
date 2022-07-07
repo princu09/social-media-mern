@@ -1,0 +1,61 @@
+{
+  "client": "Thunder Client",
+  "collectionName": "ecommerce",
+  "dateExported": "2022-07-04T07:26:53.548Z",
+  "version": "1.1",
+  "folders": [],
+  "requests": [
+    {
+      "_id": "07b19d9b-e42e-4ec7-8fc9-35c9ebbd32d2",
+      "colId": "81fb925e-9413-41bf-9ce6-cc5c04c4e882",
+      "containerId": "",
+      "name": "signup",
+      "url": "http://localhost:3001/api/signup",
+      "method": "POST",
+      "sortNum": 10000,
+      "created": "2022-07-04T05:59:11.500Z",
+      "modified": "2022-07-04T06:11:14.313Z",
+      "headers": [{ "name": "Content-Type", "value": "application/json" }],
+      "params": [],
+      "body": {
+        "type": "json",
+        "raw": "{\n    \"name\" : \"Prince Patel\",\n    \"email\" : \"pri2232outlook.com\",\n    \"password\" : \"12345\"\n}",
+        "form": []
+      },
+      "tests": []
+    },
+    {
+      "_id": "394b4bcd-e888-4834-814d-b6f21aaa3e3c",
+      "colId": "81fb925e-9413-41bf-9ce6-cc5c04c4e882",
+      "containerId": "",
+      "name": "signin",
+      "url": "http://localhost:3001/api/signin",
+      "method": "POST",
+      "sortNum": 20000,
+      "created": "2022-07-04T06:50:20.713Z",
+      "modified": "2022-07-04T07:15:34.143Z",
+      "headers": [{ "name": "Content-Type", "value": "application/json" }],
+      "params": [],
+      "body": {
+        "type": "json",
+        "raw": "{\n    \"email\" : \"pri2232@outlook.com\",\n    \"password\" : \"123456\"\n}",
+        "form": []
+      },
+      "tests": []
+    },
+    {
+      "_id": "234d4f6a-9c12-4b50-b958-20d9e359f8bf",
+      "colId": "81fb925e-9413-41bf-9ce6-cc5c04c4e882",
+      "containerId": "",
+      "name": "signout",
+      "url": "http://localhost:3001/api/signout",
+      "method": "GET",
+      "sortNum": 30000,
+      "created": "2022-07-04T07:25:48.808Z",
+      "modified": "2022-07-04T07:26:07.975Z",
+      "headers": [{ "name": "Content-Type", "value": "application/json" }],
+      "params": [],
+      "tests": []
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  li {
+    @apply font-bold text-sm mx-4 hover:text-orange-600 hover:border-orange-600 hover:cursor-pointer;
+  }
+}
